@@ -1,3 +1,9 @@
+print("=" * 70)
+cabeçario = "Questão 01"
+print(cabeçario.center(70))
+print("=" * 70)
+
+
 IPv4 = input('Adicione o IPv4 conforme segue o exemplo: "200.17.143.131": ')
 mascara_bits = int(input('Adicione a Máscara em bits, exemplo: "18" :'))
 
