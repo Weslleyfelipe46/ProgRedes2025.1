@@ -1,5 +1,10 @@
 import hashlib, time, struct
 
+print("=" * 70)
+cabeçario = "Questão 02"
+print(cabeçario.center(70))
+print("=" * 70)
+
 def findNonce(dataToHash, bitsToBeZero):
     start_time = time.time() # Inicializa para medir o tempo de execução.
     prefixo = '0' * (bitsToBeZero // 4)
